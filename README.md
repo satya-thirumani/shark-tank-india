@@ -28,6 +28,10 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Female Presenter - Number of female presenter
 
+- Started in - Year in which startup was started/incorporated
+
+- Pitchers Home City - Presenter's home town/city
+
 - Yearly Revenue - Yearly revenue, in lakhs INR
 
 - Monthly Sales - Total monthly sales
