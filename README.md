@@ -1,12 +1,12 @@
 # Shark Tank India Data set
 
-Shark Tank India - Season 1 information.
+_Shark Tank India_ - Season 1 information.
 
 One season of SHARK TANK INDIA was broadcasted in SonyLiv OTT.
 
-In 35 episodes, there were 117 pitches.
 
 Here is the data dictionary for Shark Tank (India) season's dataset.
+
 
 - Season Number - Season number
 
@@ -28,9 +28,15 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Female Presenter - Number of female presenter
 
+- Couple Presenters - Are presenters couple ? 1-yes, 0-no
+
+- Pitchers Average Age - Pitchers average age, <30 young, 30-50 middle, >50 old
+
 - Started in - Year in which startup was started/incorporated
 
-- Pitchers Home City - Presenter's home town/city
+- Pitchers City - Presenter's home town/city
+
+- Pitchers State - Indian state pitcher hails from
 
 - Yearly Revenue - Yearly revenue, in lakhs INR
 
@@ -99,4 +105,3 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 - Ghazal Debt Amount - Ghazal Debt Amount, in lakhs INR
 
 - Number of sharks in deal - Number of sharks involved in deal
-
