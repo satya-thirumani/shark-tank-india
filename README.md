@@ -22,19 +22,21 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Business Description - Business Description
 
+- Company Website - Company Website URL
+
 - Number of Presenters - Number of presenters
 
-- Male Presenter - Number of male presenter
+- Male Presenters - Number of male presenters
 
-- Female Presenter - Number of female presenter
+- Female Presenters - Number of female presenters
 
-- Couple Presenters - Are presenters couple ? 1-yes, 0-no
+- Couple Presenters - Are presenters wife/husband ? 1-yes, 0-no
 
 - Pitchers Average Age - Pitchers average age, <30 young, 30-50 middle, >50 old
 
 - Started in - Year in which startup was started/incorporated
 
-- Pitchers City - Presenter's home town/city
+- Pitchers City - Presenter's town/city
 
 - Pitchers State - Indian state pitcher hails from
 
@@ -105,3 +107,4 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 - Ghazal Debt Amount - Ghazal Debt Amount, in lakhs INR
 
 - Number of sharks in deal - Number of sharks involved in deal
+
