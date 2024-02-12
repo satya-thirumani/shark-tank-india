@@ -1,8 +1,6 @@
 # Shark Tank India Data set
 
-_Shark Tank India_ - Season 1 information.
-
-One season of SHARK TANK INDIA was broadcasted in SonyLiv OTT.
+_Shark Tank India_ - Season 1, season 2 and season 3 information.
 
 
 Here is the data dictionary for Shark Tank (India) season's dataset.
@@ -10,13 +8,21 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Season Number - Season number
 
-- Episode Number - Episode number within current season
+- Startup Name - Startup company name
+
+- Episode Number - Episode number within the season
+
+- Pitch Number - Overall pitch number
+
+- Season Start - Season first aired date
+
+- Season End - Season last aired date
+
+- Original Air Date - Episode original/first aired date, on OTT/TV
 
 - Episode Title - Episode title in SonyLiv
 
-- Pitch Number - Pitch number
-
-- Startup Name - Startup company name
+- Anchor - Name of the episode presenter/host
 
 - Industry - Industry name or type
 
@@ -24,31 +30,41 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Company Website - Company Website URL
 
+- Started in - Year in which startup was started/incorporated
+
 - Number of Presenters - Number of presenters
 
 - Male Presenters - Number of male presenters
 
 - Female Presenters - Number of female presenters
 
+- Transgender Presenters - Number of transgender/LGBTQ presenters
+
 - Couple Presenters - Are presenters wife/husband ? 1-yes, 0-no
 
-- Pitchers Average Age - Pitchers average age, <30 young, 30-50 middle, >50 old
+- Pitchers Average Age - All pitchers average age, <30 young, 30-50 middle, >50 old
 
-- Started in - Year in which startup was started/incorporated
+- Pitchers City - Presenter's town/city or city where company head office exists
 
-- Pitchers City - Presenter's town/city
+- Pitchers State - Indian state pitcher hails from or state where company head office exists
 
-- Pitchers State - Indian state pitcher hails from
+- Yearly Revenue - Yearly revenue, in lakhs INR, -1 means negative revenue, 0 means pre-revenue
 
-- Yearly Revenue - Yearly revenue, in lakhs INR
+- Monthly Sales - Total monthly sales, in lakhs
 
-- Monthly Sales - Total monthly sales
+- Gross Margin - Gross margin/profit of company, in percentages
 
-- Gross Margin - Gross Margin of company, in percentages
+- Net Margin - Net margin/profit of company, in percentages
+
+- Cash Burn - In loss; burning/paying money from their pocket
+
+- SKUs - Stock Keeping Units or number of varieties, at the time of pitch
+
+- Has Patents - Pitcher has Patents (filed/granted), at the time of pitch
 
 - Original Ask Amount - Original Ask Amount, in lakhs INR
 
-- Original Ask Equity - Original Ask Equity, in percentages
+- Original Offered Equity - Original Offered Equity, in percentages
 
 - Valuation Requested - Valuation Requested, in lakhs INR
 
@@ -60,15 +76,17 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Total Deal Equity - Total Deal Equity, in percentages
 
-- Total Deal Debt - Total Deal Debt, in lakhs INR
+- Total Deal Debt - Total Deal debt/loan amount, in lakhs INR
 
-- Valuation Offered - Valuation Offered, in lakhs INR
+- Debt Interest - Debt interest rate, in percentages
 
-- Ashneer Investment Amount - Ashneer Investment Amount, in lakhs INR
+- Deal Valuation - Deal Valuation, in lakhs INR
 
-- Ashneer Investment Equity - Ashneer Investment Equity, in percentages
+- Number of sharks in deal - Number of sharks involved in deal
 
-- Ashneer Debt Amount - Ashneer Debt Amount, in lakhs INR
+- Deal has conditions - Deal has conditions or not?
+
+- Royalty deal - Deal has royalty or not?
 
 - Namita Investment Amount - Namita Investment Amount, in lakhs INR
 
@@ -100,11 +118,47 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Peyush Debt Amount - Peyush Debt Amount, in lakhs INR
 
+- Amit Investment Amount - Amit Investment Amount, in lakhs INR
+
+- Amit Investment Equity - Amit Investment Equity, in percentages
+
+- Amit Debt Amount - Amit Debt Amount, in lakhs INR
+
+- Ashneer Investment Amount - Ashneer Investment Amount, in lakhs INR
+
+- Ashneer Investment Equity - Ashneer Investment Equity, in percentages
+
+- Ashneer Debt Amount - Ashneer Debt Amount, in lakhs INR
+
 - Ghazal Investment Amount - Ghazal Investment Amount, in lakhs INR
 
 - Ghazal Investment Equity - Ghazal Investment Equity, in percentages
 
 - Ghazal Debt Amount - Ghazal Debt Amount, in lakhs INR
 
-- Number of sharks in deal - Number of sharks involved in deal
+- Guest Investment Amount - Guest Investment Amount, in lakhs INR
+
+- Guest Investment Equity - Guest Investment Equity, in percentages
+
+- Guest Debt Amount - Guest Debt Amount, in lakhs INR
+
+- Guest Name - Name of Guest
+
+- Namita Present - Whether Namita present in episode or not
+
+- Anupam Present - Whether Anupam present in episode or not
+
+- Vineeta Present - Whether Vineeta present in episode or not
+
+- Aman Present - Whether Aman present in episode or not
+
+- Peyush Present - Whether Peyush present in episode or not
+
+- Amit Present - Whether Amit present in episode or not
+
+- Ashneer Present - Whether Ashneer present in episode or not
+
+- Ghazal Present - Whether Ghazal present in episode or not
+
+- Guest Present - Whether Guest(s) present in episode or not
 
