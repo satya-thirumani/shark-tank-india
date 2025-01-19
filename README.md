@@ -1,6 +1,6 @@
 # Shark Tank India Data set
 
-_Shark Tank India_ - Season 1, season 2 and season 3 information.
+_Shark Tank India_ - Season 1 to season 4 information.
 
 
 Here is the data dictionary for Shark Tank (India) season's dataset.
@@ -8,7 +8,7 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Season Number - Season number
 
-- Startup Name - Startup company name
+- Startup Name - Company name or product name
 
 - Episode Number - Episode number within the season
 
@@ -44,7 +44,7 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Pitchers Average Age - All pitchers average age, <30 young, 30-50 middle, >50 old
 
-- Pitchers City - Presenter's town/city or city where company head office exists
+- Pitchers City - Presenter's town/city or place where company head office exists
 
 - Pitchers State - Indian state pitcher hails from or state where company head office exists
 
@@ -56,11 +56,17 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Net Margin - Net margin/profit of company, in percentages
 
-- Cash Burn - In loss; burning/paying money from their pocket
+- EBITDA - Earnings Before Interest, Taxes, Depreciation, and Amortization
+
+- Cash Burn - In loss in current year; burning/paying money from their pocket (yes/no)
 
 - SKUs - Stock Keeping Units or number of varieties, at the time of pitch
 
-- Has Patents - Pitcher has Patents (filed/granted), at the time of pitch
+- Has Patents - Pitcher has Patents/Intellectual property (filed/granted), at the time of pitch
+
+- Bootstrapped - Startup is bootstrapped or not (yes/no/funded)
+
+- Part of Match off - Competition between two similar brands, pitched at same time
 
 - Original Ask Amount - Original Ask Amount, in lakhs INR
 
@@ -84,9 +90,11 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Number of sharks in deal - Number of sharks involved in deal
 
-- Deal has conditions - Deal has conditions or not?
+- Deal has conditions - Deal has conditions or not? (yes or no)
 
-- Royalty deal - Deal has royalty or not?
+- Royalty Deal - Is it royalty deal or not (1-yes)
+
+- Advisory Shares Equity - Deal with Advisory shares or equity, in percentages
 
 - Namita Investment Amount - Namita Investment Amount, in lakhs INR
 
@@ -94,17 +102,17 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Namita Debt Amount - Namita Debt Amount, in lakhs INR
 
-- Anupam Investment Amount - Anupam Investment Amount, in lakhs INR
-
-- Anupam Investment Equity - Anupam Investment Equity, in percentages
-
-- Anupam Debt Amount - Anupam Debt Amount, in lakhs INR
-
 - Vineeta Investment Amount - Vineeta Investment Amount, in lakhs INR
 
 - Vineeta Investment Equity - Vineeta Investment Equity, in percentages
 
 - Vineeta Debt Amount - Vineeta Debt Amount, in lakhs INR
+
+- Anupam Investment Amount - Anupam Investment Amount, in lakhs INR
+
+- Anupam Investment Equity - Anupam Investment Equity, in percentages
+
+- Anupam Debt Amount - Anupam Debt Amount, in lakhs INR
 
 - Aman Investment Amount - Aman Investment Amount, in lakhs INR
 
@@ -118,23 +126,17 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Peyush Debt Amount - Peyush Debt Amount, in lakhs INR
 
+- Ritesh Investment Amount - Ritesh Investment Amount, in lakhs INR
+
+- Ritesh Investment Equity - Ritesh Investment Equity, in percentages
+
+- Ritesh Debt Amount - Ritesh Debt Amount, in lakhs INR
+
 - Amit Investment Amount - Amit Investment Amount, in lakhs INR
 
 - Amit Investment Equity - Amit Investment Equity, in percentages
 
 - Amit Debt Amount - Amit Debt Amount, in lakhs INR
-
-- Ashneer Investment Amount - Ashneer Investment Amount, in lakhs INR
-
-- Ashneer Investment Equity - Ashneer Investment Equity, in percentages
-
-- Ashneer Debt Amount - Ashneer Debt Amount, in lakhs INR
-
-- Ghazal Investment Amount - Ghazal Investment Amount, in lakhs INR
-
-- Ghazal Investment Equity - Ghazal Investment Equity, in percentages
-
-- Ghazal Debt Amount - Ghazal Debt Amount, in lakhs INR
 
 - Guest Investment Amount - Guest Investment Amount, in lakhs INR
 
@@ -142,23 +144,23 @@ Here is the data dictionary for Shark Tank (India) season's dataset.
 
 - Guest Debt Amount - Guest Debt Amount, in lakhs INR
 
-- Guest Name - Name of Guest
+- Invested Guest Name - Name of the guest(s) who invested in deal
+
+- All Guest Names - Name of all guests, who are present in episode
 
 - Namita Present - Whether Namita present in episode or not
 
-- Anupam Present - Whether Anupam present in episode or not
-
 - Vineeta Present - Whether Vineeta present in episode or not
+
+- Anupam Present - Whether Anupam present in episode or not
 
 - Aman Present - Whether Aman present in episode or not
 
 - Peyush Present - Whether Peyush present in episode or not
 
+- Ritesh Present - Whether Ritesh present in episode or not
+
 - Amit Present - Whether Amit present in episode or not
-
-- Ashneer Present - Whether Ashneer present in episode or not
-
-- Ghazal Present - Whether Ghazal present in episode or not
 
 - Guest Present - Whether Guest(s) present in episode or not
 
