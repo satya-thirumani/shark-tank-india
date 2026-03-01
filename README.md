@@ -1,6 +1,6 @@
 # Shark Tank India Data set
 
-_Shark Tank India_ - Season 1 to season 4 information.
+_Shark Tank India_ - Season 1 to season 5 information.
 
 
 Here is the data dictionary for Shark Tank (India) season's dataset.
